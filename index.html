@@ -1,16 +1,99 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 
 <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='script.js' defer></script>
-    <title>Consultoria-animaciones</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultoría de Desarrollo Web</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <h1>...</h1>
+    <!-- Encabezado -->
+
+    <header class="encabezado">
+        <div class="encabezado-contenido">
+            <div class="logo-consultoria">
+                <img src="img/LOGO.svg" alt="Logo consultoria">
+            </div>
+            <div class="texto-consultoria">
+                <h1 class="nombre-consultoria">Alejandro Rey Tostado</h1>
+                <p class="descripcion-consultoria">Consultoría de Desarrollo Web</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <section class="seccion-bienvenida">
+            <div class="bloque-texto-bienvenida">
+                <h2 class="titulo-bienvenida">Tu proyecto web, de idea a realidad</h2>
+                <p class="parrafo-bienvenida">
+                    Creación de páginas web modernas, rápidas y adaptadas a las necesidades
+                    de cada cliente, con un enfoque profesional y orientado a resultados.
+                </p>
+                <div class="contenedor-boton-bienvenida">
+                    <button class="boton-principal" id="boton-bienvenida">
+                        Solicita tu web
+                    </button>
+                </div>
+            </div>
+
+            <div class="bloque-imagen-bienvenida">
+                <img src="img/desarrollo.svg" alt="Ilustración de desarrollo y diseño web" class="imagen-bienvenida" />
+            </div>
+        </section>
+
+        <!-- Sección de servicios/ventajas -->
+        <section class="seccion-servicios" id="seccion-servicios">
+            <h2 class="titulo-seccion">Servicios de la consultoría</h2>
+            <div class="lista-servicios">
+                <article class="tarjeta-servicio">
+                    <h3 class="titulo-servicio">Diseño profesional</h3>
+                    <p class="descripcion-servicio">
+                        Páginas web con una apariencia cuidada, alineada con la imagen de tu marca.
+                    </p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <h3 class="titulo-servicio">Diseño responsive</h3>
+                    <p class="descripcion-servicio">
+                        Sitios adaptados a móvil, tablet y ordenador para que tus clientes te vean desde cualquier
+                        dispositivo.
+                    </p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <h3 class="titulo-servicio">Rendimiento optimizado</h3>
+                    <p class="descripcion-servicio">
+                        Carga rápida y buenas prácticas para que la experiencia sea fluida y agradable.
+                    </p>
+                </article>
+
+                <article class="tarjeta-servicio">
+                    <h3 class="titulo-servicio">Acompañamiento completo</h3>
+                    <p class="descripcion-servicio">
+                        Desde la idea inicial hasta la publicación, con comunicación clara en todo momento.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Llamada a la acción final -->
+        <section class="seccion-llamada-accion">
+            <p class="texto-llamada-accion">
+                ¿Listo para dar el siguiente paso con tu proyecto web?
+            </p>
+            <button class="boton-principal boton-llamada-accion">
+                Contáctame ahora
+            </button>
+        </section>
+    </main>
+
+    <!-- Pie de página al fondo -->
+    <footer class="pie-pagina" id="pie-pagina">
+        <p>Contacto: contacto@alejandroreytostadoweb.com · Teléfono: 600 123 456</p>
+        <p>Mérida · Consultoría de Desarrollo Web</p>
+    </footer>
 </body>
 
 </html>

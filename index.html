@@ -10,90 +10,84 @@
 
 <body>
     <!-- Encabezado -->
-
-    <header class="encabezado">
-        <div class="encabezado-contenido">
-            <div class="logo-consultoria">
-                <img src="img/LOGO.svg" alt="Logo consultoria">
+    <header class="cabecera">
+        <div class="cabecera-contenido">
+            <div class="cabecera-logo">
+                <img src="img/LOGO.svg" alt="Logo consultoría" />
             </div>
-            <div class="texto-consultoria">
-                <h1 class="nombre-consultoria">Alejandro Rey Tostado</h1>
-                <p class="descripcion-consultoria">Consultoría de Desarrollo Web</p>
+            <div class="cabecera-texto">
+                <h1 class="cabecera-nombre">Alejandro Rey Tostado</h1>
+                <p class="cabecera-descripcion">Consultoría de Desarrollo Web</p>
             </div>
         </div>
     </header>
 
-    <main class="contenido-principal">
-        <section class="seccion-bienvenida">
-            <div class="bloque-texto-bienvenida">
-                <h2 class="titulo-bienvenida">Tu proyecto web, de idea a realidad</h2>
-                <p class="parrafo-bienvenida">
+    <main class="pagina-contenido">
+        <!-- Sección principal / hero -->
+        <section class="hero">
+            <div class="hero-texto">
+                <h2 class="hero-titulo">Tu proyecto web, de idea a realidad</h2>
+                <p class="hero-parrafo">
                     Creación de páginas web modernas, rápidas y adaptadas a las necesidades
-                    de cada cliente, con un enfoque profesional y orientado a resultados.
-                </p>
-                <div class="contenedor-boton-bienvenida">
-                    <button class="boton-principal" id="boton-bienvenida">
-                        Solicita tu web
-                    </button>
+                    de cada cliente, con un enfoque profesional y orientado a resultados.</p>
+                <div class="hero-boton-contenedor">
+                    <button class="boton-principal" id="boton-hero">Solicita tu web</button>
                 </div>
             </div>
 
-            <div class="bloque-imagen-bienvenida">
-                <img src="img/desarrollo.svg" alt="Ilustración de desarrollo y diseño web" class="imagen-bienvenida" />
+            <div class="hero-imagen-contenedor">
+                <img src="img/desarrollo.svg" alt="Ilustración de desarrollo y diseño web" class="hero-imagen" />
             </div>
         </section>
 
-        <!-- Sección de servicios/ventajas -->
-        <section class="seccion-servicios" id="seccion-servicios">
-            <h2 class="titulo-seccion">Servicios de la consultoría</h2>
-            <div class="lista-servicios">
-                <article class="tarjeta-servicio">
-                    <h3 class="titulo-servicio">Diseño profesional</h3>
-                    <p class="descripcion-servicio">
-                        Páginas web con una apariencia cuidada, alineada con la imagen de tu marca.
-                    </p>
+        <!-- Sección de servicios -->
+        <section class="servicios" id="servicios">
+            <h2 class="servicios-titulo">Servicios de la consultoría</h2>
+            <div class="servicios-lista">
+                <article class="servicio-tarjeta">
+                    <h3 class="servicio-titulo">Diseño profesional</h3>
+                    <p class="servicio-descripcion">Páginas web con una apariencia cuidada, alineada con la imagen de tu
+                        marca.</p>
                 </article>
 
-                <article class="tarjeta-servicio">
-                    <h3 class="titulo-servicio">Diseño responsive</h3>
-                    <p class="descripcion-servicio">
+                <article class="servicio-tarjeta">
+                    <h3 class="servicio-titulo">Diseño responsive</h3>
+                    <p class="servicio-descripcion">
                         Sitios adaptados a móvil, tablet y ordenador para que tus clientes te vean desde cualquier
-                        dispositivo.
-                    </p>
+                        dispositivo.</p>
                 </article>
 
-                <article class="tarjeta-servicio">
-                    <h3 class="titulo-servicio">Rendimiento optimizado</h3>
-                    <p class="descripcion-servicio">
-                        Carga rápida y buenas prácticas para que la experiencia sea fluida y agradable.
-                    </p>
+                <article class="servicio-tarjeta">
+                    <h3 class="servicio-titulo">Rendimiento optimizado</h3>
+                    <p class="servicio-descripcion">Carga rápida y buenas prácticas para que la experiencia sea fluida y
+                        agradable.</p>
                 </article>
 
-                <article class="tarjeta-servicio">
-                    <h3 class="titulo-servicio">Acompañamiento completo</h3>
-                    <p class="descripcion-servicio">
-                        Desde la idea inicial hasta la publicación, con comunicación clara en todo momento.
-                    </p>
+                <article class="servicio-tarjeta">
+                    <h3 class="servicio-titulo">Acompañamiento completo</h3>
+                    <p class="servicio-descripcion">Desde la idea inicial hasta la publicación, con comunicación clara
+                        en todo momento.</p>
                 </article>
             </div>
         </section>
 
         <!-- Llamada a la acción final -->
-        <section class="seccion-llamada-accion">
-            <p class="texto-llamada-accion">
-                ¿Listo para dar el siguiente paso con tu proyecto web?
-            </p>
-            <button class="boton-principal boton-llamada-accion">
-                Contáctame ahora
-            </button>
+        <section class="cta-final">
+            <p class="cta-texto">¿Listo para dar el siguiente paso con tu proyecto web?</p>
+            <button class="boton-principal cta-boton">Contáctame ahora</button>
         </section>
     </main>
 
-    <!-- Pie de página al fondo -->
-    <footer class="pie-pagina" id="pie-pagina">
-        <p>Contacto: contacto@alejandroreytostadoweb.com · Teléfono: 600 123 456</p>
+    <!-- Pie de página -->
+    <footer class="pie" id="pie-pagina">
+        <p>Contacto: contacto@alejandroreytostadoweb.com · Teléfono: 123 456 789</p>
         <p>Mérida · Consultoría de Desarrollo Web</p>
     </footer>
+
+    <!-- Scripts de GSAP y animaciones -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
